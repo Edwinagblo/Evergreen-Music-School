@@ -1,0 +1,1133 @@
+
+/* media query for small phones (max-width:360px) */
+@media screen and (max-width:360px) {
+    header{
+        background-color: rgb(71, 145, 109);
+        height: 125px;
+        padding-bottom: 0px;
+        width: 100%;
+
+    }
+
+    body{
+        background-color: rgb(192, 247, 196);
+        margin: 0;
+        padding-top: 36px;
+        overflow-x: hidden;
+    }
+    
+
+    .links{
+        display:inline-block;
+        text-align: center;
+        text-decoration: none;
+        font-size: small;
+        color: rgb(192, 247, 196);
+        font-style: italic;
+       
+    }
+
+
+   #logo1{
+    max-width: 20%;
+    margin-bottom: -40px;
+    margin-left: 19px;
+   
+   }
+
+   #logo2{
+    color: rgb(192, 247, 196);
+    font-size: small;
+    text-transform: uppercase;
+    margin-left: 74px;
+    display: block;
+
+    
+   }
+
+   #engine{
+    padding-left: 80px;
+    margin-top: 8px;
+   }
+
+   #engine button{
+    background-color: rgb(192, 247, 196);
+   }
+
+   #engine input{
+    width: 100px;
+    border-radius: 5px;
+   }
+
+   .welcome{
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(71, 145, 109);
+   }
+
+   #building{
+    width: 100%;
+   }
+
+   #hometext h2 {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: rgb(71, 145, 109);
+   }
+
+   #hometext h4{
+    text-align: center;
+    font-style: italic;
+    color: rgb(71, 145, 109);
+   }
+
+   #hometext td{
+    display: block;
+    text-align: justify;
+    color: rgb(71, 145, 109);
+    padding: 5px;
+   }
+
+   #ongoing-violin-img{
+    width: 100%;
+   }
+
+
+   div a:hover{
+    color: white;
+   }
+
+   div a:active{
+    color: rgb(123, 121, 121);
+   }
+
+   .historytext{
+    font-size: 15px;
+    color:rgb(71, 145, 109);
+    text-align:justify;
+    margin-top: 10px;
+    padding: 10px;
+}
+   #history-pic{
+    width: 100%;
+
+   }
+
+   .courses-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+   .courses-text{
+    font-size: 15px;
+    color: rgb(71, 145, 109) ;
+    text-align: justify;
+    padding: 10px;
+
+    
+    
+}
+
+#courses td{
+    display: block;
+    margin-bottom: 32px;
+}
+
+#courses h3{
+    text-align: center;
+    margin-top: -63px;
+    background-color: rgb(71, 145, 109);
+    color: rgb(192, 247, 196);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+    
+}
+.forms{
+    color:rgb(192, 247, 196);
+    font-size: 15px;
+    display: block;
+    text-align: start;
+    border: 10px;
+    font-style: italic;
+
+
+}
+
+#form-body{
+    border: 40px solid;
+    color: rgb(192, 247, 196);
+    border-style:dashed;
+    background-color:rgb(71, 145, 109);
+    
+}
+
+#dob input{
+    width: 102px;
+    display: inline;
+}
+
+.forms input {
+    width: 231px;
+    height: 30px ;
+    border-radius: 7px;
+    
+}
+
+.forms label{
+display: block;
+}
+
+#submit{
+color: rgb(192, 247, 196);
+margin-left: 92px;
+margin-top: 12px;
+}
+
+
+#gallery-body{
+    border: 27px solid;
+    border-style: double;
+    color:rgb(71, 145, 109);
+    margin-top: 17px;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.contact{
+    text-align: center;
+    color: rgb(71, 145, 109);
+}
+
+.contact a{
+    color: rgb(71, 145, 109);
+}
+
+#footer{
+    background-color:rgb(71, 145, 109);
+    padding-bottom: 10px;
+    
+   }
+
+   #footer h3{
+    text-align: start;
+    padding-left: 10px;
+   }
+
+   .footer-col{
+    display: block;
+    font-size: 15px;
+    color:rgb(192, 247, 196);
+    
+}
+
+   .footer-col ul li{
+    list-style: none;
+    margin-left: -30px;
+   } 
+
+   .footer-col a{
+    text-decoration: none;
+    color: rgb(192, 247, 196);
+   }
+
+   .social-links{
+    margin-left:-30px;
+   }
+}
+/* media max-width:320px */
+
+
+
+/* media query for min width 321px and up */
+
+@media screen and (min-width: 321px) {
+    header{
+        background-color: rgb(192, 247, 196);
+        height: 283px;
+    }
+    body{
+        background-color: rgb(71, 145, 109);
+        margin: 0;
+        padding-top: 36px;
+        overflow-x: hidden;
+    }
+    
+     
+    div a:hover{
+        color:white;
+    }
+
+    div a:active{
+        color: rgb(123, 121, 121);
+    }
+
+    #logo1{
+        margin-bottom:-26px;
+        margin-right: -32px;
+        margin-left: 0px;
+        width: 130px;
+        height: 66px;
+    }
+
+    #logo2{
+        color: rgb(71, 145, 109);
+        font-style:italic;
+        font-size: 19px;
+        text-transform: uppercase;
+        margin-top: -21px;
+        padding-left: 116px;
+        padding-bottom: 14px;
+    }
+     
+    .links{
+        display: inline-block;
+        color:rgb(71, 145, 109);
+        text-decoration: none;
+        margin-left: 4px;
+        margin-top: 11px;
+        text-align: center;
+        
+    }
+
+    #engine{
+        margin-left: 77px;
+        margin-top: 28px;
+    }
+
+    #engine button:hover{
+        background-color:rgb(71, 145, 109);
+        color: rgb(192, 247, 196) ;
+        
+     }
+    
+     #engine input{
+        border-radius: 7px;
+     }
+
+     #engine input{
+        width: 150px;
+        border-radius: 5px;
+     }
+
+    .welcome{
+        color: rgb(192, 247, 196) ;
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    } 
+    
+    #building{
+        width: 100%;
+        height: 450px;
+        margin-top: 1px;
+        border-radius: 5px;
+        
+    }
+
+
+    #hometext h2 {
+        display: block;
+        text-align: center;
+        font-style: italic;
+        color:rgb(192, 247, 196);
+       }
+    
+       #hometext h4{
+        display: block;
+        text-align: center;
+        font-style: italic;
+        color:rgb(192, 247, 196);
+       }
+
+       
+   #hometext td{
+    font-size: 23px;
+    color: rgb(192, 247, 196);
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block;
+    text-align: center;
+   }
+
+   #ongoing-violin-img{
+    width: 100%;
+    margin-top: 18px;
+}
+
+    
+    
+.courses-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+   .courses-text{
+    font-size: 15px;
+    color: rgb(192, 247, 196) ;
+    text-align: justify;
+    padding: 10px;
+
+    
+    
+}
+
+#courses td{
+    display: block;
+    margin-bottom: 32px;
+}
+
+#courses h3{
+    text-align: center;
+    margin-top: -63px;
+    background-color:rgb(192, 247, 196);
+    color: rgb(71, 145, 109);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+    .courses-prices{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #gallery-body{
+        border: 27px solid;
+        border-style: double;
+        color:rgb(19, 20, 19);
+        margin-bottom: -30px;
+    }
+
+    .historytext{
+        font-size: 15px;
+        color:rgb(71, 145, 109);
+        text-align:justify;
+        margin-top: 10px;
+        padding: 10px;
+    }
+      
+    #history-pic{
+        width: 100%;
+    
+       }
+
+.historytext{
+    font-size: 15px;
+    color:rgb(192, 247, 196);
+    text-align:justify;
+    margin-top: 10px;
+    padding: 10px;
+}
+   #history-pic{
+    width: 100%;
+
+   }
+    
+    #contact a{
+    color: rgb(192, 247, 196);
+    text-align: center;
+    display: block;
+    font-size: 23px;
+    text-decoration: none;
+    font-style: italic;
+    
+    }
+    
+    .forms{
+        color:rgb(192, 247, 196);
+        font-size: 15px;
+        display: block;
+        text-align: start;
+        border: 10px;
+        font-style: italic;
+    
+    
+    }
+    
+    #form-body{
+        border: 40px solid;
+        color: rgb(192, 247, 196);
+        border-style:dashed;
+        background-color:rgb(71, 145, 109);
+        
+    }
+    
+    #dob input{
+        width: 102px;
+        display: inline;
+    }
+    
+    .forms input {
+        width: 231px;
+        height: 30px ;
+        border-radius: 7px;
+        
+    }
+    
+    .forms label{
+    display: block;
+    }
+    
+    #submit{
+    color: rgb(192, 247, 196);
+    margin-left: 92px;
+    margin-top: 12px;
+    }
+    #gallery-body{
+        border: 27px solid;
+        border-style: double;
+        color:rgb(192, 247, 196);
+    }
+    
+    .gallery img{
+        width: 379px;
+        height: 300px;
+    }
+    
+    .contact{
+        text-align: center;
+        color: rgb(192, 247, 196);
+        font-size: 23px;
+    }
+    
+    .contact a{
+        color: rgb(192, 247, 196);
+    }
+    
+    
+    
+    #footer{
+        background-color:rgb(19, 20, 19);
+        padding-bottom: 10px;
+        
+       }
+    
+       #footer h3{
+        text-align: start;
+        padding-left: 10px;
+       }
+    
+       .footer-col{
+        display: block;
+        font-size: 15px;
+        color:rgb(71, 145, 109);
+        
+    }
+    
+       .footer-col ul li{
+        list-style: none;
+        margin-left: -30px;
+       } 
+    
+       .footer-col a{
+        text-decoration: none;
+        color: rgb(71, 145, 109);
+       }
+    
+       .social-links{
+        margin-left:-30px;
+       }
+    }
+/* media query for max width 321px and up */
+
+/* media min-width:500px */
+@media screen and (min-width: 500px) {
+    header{
+        background-color:rgb(192, 247, 196);
+        height: 283px;
+    }
+    body{
+        background-color:rgb(19, 20, 19);
+        margin: 0;
+        padding-top: 36px;
+        overflow-x: hidden;
+    }
+    
+     
+    div a:hover{
+        color:white;
+    }
+
+    div a:active{
+        color: rgb(123, 121, 121);
+    }
+
+    #logo1{
+        margin-bottom:-26px;
+        margin-right: -32px;
+        margin-left: 0px;
+        width: 130px;
+        height: 66px;
+    }
+
+    #logo2{
+        color: rgb(71, 145, 109);
+        font-style:italic;
+        font-size: 19px;
+        text-transform: uppercase;
+        margin-top: -21px;
+        padding-left: 116px;
+        padding-bottom: 14px;
+    }
+     
+    .links{
+        display: inline-block;
+        color:rgb(71, 145, 109);
+        text-decoration: none;
+        margin-left: 37px;
+        margin-top: 11px;
+        text-align: center;
+        
+    }
+
+    #engine{
+        margin-left: 284px;
+        margin-top: 28px;
+    }
+
+    #engine button:hover{
+        background-color:rgb(71, 145, 109);
+        color: rgb(192, 247, 196) ;
+        
+     }
+    
+     #engine input{
+        border-radius: 7px;
+     }
+
+     #engine input{
+        width: 150px;
+        border-radius: 5px;
+     }
+
+    .welcome{
+        color: rgb(192, 247, 196) ;
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    } 
+    
+    #building{
+        width: 100%;
+        height: 450px;
+        margin-top: 1px;
+        border-radius: 5px;
+        
+    }
+
+
+    #hometext h2 {
+        display: block;
+        text-align: center;
+        font-style: italic;
+        color:rgb(192, 247, 196);
+       }
+    
+       #hometext h4{
+        display: block;
+        text-align: center;
+        font-style: italic;
+        color:rgb(192, 247, 196);
+       }
+
+       
+   #hometext td{
+    font-size: 23px;
+    color: rgb(192, 247, 196);
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block;
+    text-align: center;
+   }
+
+   #ongoing-violin-img{
+    width: 100%;
+    margin-top: 18px;
+}
+
+    
+    
+.courses-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+   .courses-text{
+    font-size: 15px;
+    color: rgb(192, 247, 196) ;
+    text-align: justify;
+    padding: 10px;
+
+    
+    
+}
+
+#courses td{
+    display: block;
+    margin-bottom: 32px;
+}
+
+#courses h3{
+    text-align: center;
+    margin-top: -63px;
+    background-color:rgb(192, 247, 196);
+    color: rgb(71, 145, 109);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+    .courses-prices{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #gallery-body{
+        border: 27px solid;
+        border-style: double;
+        color:rgb(19, 20, 19);
+        margin-bottom: -30px;
+    }
+
+    .historytext{
+        font-size: 15px;
+        color:rgb(71, 145, 109);
+        text-align:justify;
+        margin-top: 10px;
+        padding: 10px;
+    }
+      
+    #history-pic{
+        width: 100%;
+    
+       }
+
+.historytext{
+    font-size: 15px;
+    color:rgb(192, 247, 196);
+    text-align:justify;
+    margin-top: 10px;
+    padding: 10px;
+}
+   #history-pic{
+    width: 100%;
+
+   }
+    
+    #contact a{
+    color: rgb(192, 247, 196);
+    text-align: center;
+    display: block;
+    font-size: 23px;
+    text-decoration: none;
+    font-style: italic;
+    
+    }
+    
+    .forms{
+        color:rgb(192, 247, 196);
+        font-size: 15px;
+        display: block;
+        text-align: start;
+        border: 10px;
+        font-style: italic;
+    
+    
+    }
+    
+    #form-body{
+        border: 40px solid;
+        color: rgb(192, 247, 196);
+        border-style:dashed;
+        background-color:rgb(71, 145, 109);
+        
+    }
+    
+    #dob input{
+        width: 102px;
+        display: inline;
+    }
+    
+    .forms input {
+        width: 231px;
+        height: 30px ;
+        border-radius: 7px;
+        
+    }
+    
+    .forms label{
+    display: block;
+    }
+    
+    #submit{
+    color: rgb(192, 247, 196);
+    margin-left: 92px;
+    margin-top: 12px;
+    }
+    #gallery-body{
+        border: 27px solid;
+        border-style: double;
+        color:rgb(192, 247, 196);
+    }
+    
+    .gallery img{
+        width: 379px;
+        height: 300px;
+    }
+    
+    .contact{
+        text-align: center;
+        color: rgb(192, 247, 196);
+        font-size: 23px;
+    }
+    
+    .contact a{
+        color: rgb(192, 247, 196);
+    }
+    
+    
+    
+    #footer{
+        background-color:rgb(19, 20, 19);
+        padding-bottom: 10px;
+        
+       }
+    
+       #footer h3{
+        text-align: start;
+        padding-left: 10px;
+       }
+    
+       .footer-col{
+        display: block;
+        font-size: 15px;
+        color:rgb(71, 145, 109);
+        
+    }
+    
+       .footer-col ul li{
+        list-style: none;
+        margin-left: -30px;
+       } 
+    
+       .footer-col a{
+        text-decoration: none;
+        color: rgb(71, 145, 109);
+       }
+    
+       .social-links{
+        margin-left:-30px;
+       }
+    }
+/* media min-width:600px */
+
+
+
+    /* media query  for large laptops */
+
+   
+
+@media screen and (min-width: 1200px) {
+    header{
+        background-color: rgb(192, 247, 196);
+        height: 111px;
+    }
+    body{
+        background-color: rgb(71, 145, 109);
+        margin-top: 36px;
+        margin-left: 0px;
+        margin-right:0px ;
+        margin-bottom: 0px;
+        overflow-x: hidden;
+    }
+    
+     
+    div a:hover{
+        color:white;
+    }
+
+    div a:active{
+        color: rgb(123, 121, 121);
+    }
+
+    #logo1{
+        margin-bottom:-26px;
+        margin-right: -32px;
+        margin-left: 0px;
+        width: 130px;
+        height: 66px;
+    }
+
+    #logo2{
+        color: rgb(71, 145, 109);
+        font-style:italic;
+        font-size: 19px;
+        text-transform: uppercase;
+        margin-top: -21px;
+        padding-left: 116px;
+        padding-bottom: 14px;
+    }
+     
+    .links{
+        display: inline;
+        color:rgb(71, 145, 109);
+        text-decoration: none;
+        margin-left: 65px;
+        
+    }
+
+    #engine{
+        padding-left: 965px;
+        margin-top: -20px;
+    }
+
+    #engine button:hover{
+        background-color:rgb(71, 145, 109);
+        color: rgb(192, 247, 196) ;
+        
+     }
+    
+     #engine input{
+        border-radius: 7px;
+     }
+
+     #engine input{
+        width: 150px;
+        border-radius: 5px;
+     }
+
+    .welcome{
+        color: rgb(192, 247, 196) ;
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    } 
+    
+    #building{
+        width: 100%;
+        height: 450px;
+        margin-top: 1px;
+        border-radius: 5px;
+        
+    }
+
+
+    #hometext h2 {
+        display: block;
+        text-align: center;
+        font-style: italic;
+        color:rgb(192, 247, 196);
+       }
+    
+       #hometext h4{
+        text-align: center;
+        font-style: italic;
+        color:rgb(192, 247, 196);
+       }
+
+       
+   #hometext td{
+    font-size: 23px;
+    text-align: center;
+    color: rgb(192, 247, 196);
+    padding-right: 50px;
+    padding-left: 50px;
+   }
+
+   #ongoing-violin-img{
+    width: 560px;
+    height: 365px;
+    margin-top: 18px;
+}
+
+    
+    
+    .courses-img{
+        width: 500px;
+        height: 350px;
+        margin-left: 30px;
+        
+    }
+    
+    .courses-text{
+        font-size: 23px;
+        color: rgb(192, 247, 196) ;
+        font-style: italic;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align:justify ;
+    }
+
+    
+    #courses h3{
+        text-align: center;
+        color: rgb(71, 145, 109);
+        background-color: rgb(192, 247, 196);
+        border-radius: 10px;
+        text-transform: uppercase;
+    }
+
+    .courses-prices{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #gallery-body{
+        border: 27px solid;
+        border-style: double;
+        color:rgb(19, 20, 19);
+        margin-bottom: -30px;
+    }
+
+
+    #history-pic{
+        width: 1020px;
+        
+       }
+
+    .historytext{
+        font-size: 23px;
+        color:rgb(192, 247, 196);
+        text-align:justify;
+        font-style: italic;
+        padding-left: 187px;
+        padding-right: 187px;
+        margin-top: 10px;
+    }
+    
+    
+    
+    
+    #contact a{
+    color: rgb(192, 247, 196);
+    text-align: center;
+    display: block;
+    font-size: 23px;
+    text-decoration: none;
+    font-style: italic;
+    
+    }
+    
+    .forms{
+        color:rgb(192, 247, 196) ;
+        font-size: 23px;
+        display: block;
+        margin-left: 30px;
+        text-align: start;
+        border: 100px;
+        font-style: italic;
+        padding-left: 83px;
+        padding-top: 20px;
+        
+    
+    }
+    
+    #form-body{
+        border: 40px solid;
+        color: rgb(192, 247, 196);
+        border-style:dotted;
+        margin: 150px;
+        margin-top: -28px;
+        background-color:rgb(19, 20, 19);
+        
+    }
+    
+    #dob input{
+        width: 100px;
+        display: inline;
+    }
+    
+    .forms input {
+        width: 600px;
+        height: 30px ;
+        border-radius: 7px;
+        
+    }
+    
+    .forms label{
+    display: block;
+    }
+    
+    #submit{
+    margin-bottom: 9px;
+    margin-left: 667px;
+    margin-top: 9px;
+    }
+
+    #gallery-body{
+        border: 27px solid;
+        border-style: double;
+        color:rgb(192, 247, 196);
+    }
+    
+    .gallery img{
+        width: 379px;
+        height: 300px;
+    }
+    
+    .contact{
+        text-align: center;
+        color: rgb(192, 247, 196);
+        font-size: 23px;
+    }
+    
+    .contact a{
+        color: rgb(192, 247, 196);
+    }
+    
+    
+    
+    #footer{
+        background-color:rgb(19, 20, 19);
+        height: 317px;
+        margin-top: 30px;
+        padding-bottom: 50px;
+        
+    }
+    
+    .footer-col{
+        display: inline-table;
+        font-size: 20px;
+        color:rgb(71, 145, 109);
+        
+    }
+
+    .footer-col a{
+        text-decoration: none;
+        color: rgb(71, 145, 109);
+    }
+
+    .footer-col h3{
+        padding-bottom: 10px;
+        padding-top: 50px;
+        padding-left: 45px;
+        font-style: italic;
+    }
+
+    .footer-col ul li{
+        font-style: italic;
+       list-style: none;
+       padding: 2px;
+       margin-top: 0px;
+       color:rgb(71, 145, 109) ;
+    }
+    
+   
+}
+
+
